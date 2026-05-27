@@ -17,7 +17,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://ai-chat-rqb9.vercel.app")
 public class MessageController {
 
     @Autowired
